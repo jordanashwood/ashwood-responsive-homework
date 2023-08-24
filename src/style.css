@@ -1,0 +1,126 @@
+:root {
+  --primary-color: #f05247;
+  --secondary-color: #f6c922;
+  --tertiary-color: #e7edf0;
+  --paragraph-color: #333333;
+  --box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+a,
+h1,
+h2,
+h3 {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-weight: 200;
+  font-size: 80px;
+  line-height: 1.1;
+  color: var(--primary-color);
+}
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1;
+  color: var(--paragraph-color);
+}
+h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--paragraph-color);
+}
+hr {
+  margin-top: 60px;
+  border: 1px solid var(--secondary-color);
+}
+p {
+  font-family: "Work Sans", sans-serif;
+  color: var(--paragraph-color);
+  font-size: 14px;
+}
+.about-link {
+  border: 2px solid var(--secondary-color);
+  transition: all 200ms ease-in-out;
+  color: var(--secondary-color);
+}
+.about-link:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.05);
+}
+.about-paragraphs {
+  display: flex;
+  margin: 20px 0;
+}
+.about-paragraphs p {
+  margin: 15px;
+  line-height: 1.45;
+  background-color: var(--tertiary-color);
+  padding: 20px;
+  border-radius: 10px;
+  width: 380px;
+}
+.back-link {
+  color: #a7a7a7;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  transition: all 200ms ease-in-out;
+}
+.back-link:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.back-link:visited {
+  color: #6860ab;
+}
+#contact {
+  margin-top: 60px;
+}
+.contact-link {
+  background-color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+.contact-link:hover {
+  box-shadow: var(--box-shadow);
+  border: 3px solid var(--secondary-color);
+  background-color: #e9ab00;
+  transform: scale(1.05);
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  margin-top: 20px;
+  transition: all 200ms ease-in-out;
+}
+.email-link:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.email-link:visited {
+  color: #6860ab;
+}
+.nav-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.nav-links a {
+  margin: 20px;
+  border-radius: 30px;
+  padding: 15px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
