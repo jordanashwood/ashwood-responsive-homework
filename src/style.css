@@ -9,8 +9,7 @@ a {
   text-decoration: none;
 }
 body {
-  margin: 60px auto;
-  max-width: 800px;
+  margin-top: 100px;
 }
 a,
 h1,
@@ -110,12 +109,12 @@ p {
 .email-link:visited {
   color: #6860ab;
 }
-.nav-links {
+.hero-btns {
   display: flex;
   margin-top: 40px;
   justify-content: center;
 }
-.nav-links a {
+.hero-btns a {
   margin: 20px;
   border-radius: 30px;
   padding: 15px 20px;
