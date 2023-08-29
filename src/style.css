@@ -10,14 +10,13 @@ h1,
 h2,
 h3 {
   font-family: "Work Sans", sans-serif;
-  text-align: center;
   margin: 0;
 }
 h1 {
   font-weight: 200;
   font-size: 80px !important;
   line-height: 0.9 !important;
-  color: white;
+  color: var(--paragraph-color);
 }
 h2 {
   font-weight: 600;
@@ -82,13 +81,13 @@ p {
 #contact {
   margin-top: 60px;
 }
-.contact-link {
+.btn-yellow {
   background-color: var(--secondary-color);
   border: 3px solid var(--secondary-color);
   color: var(--paragraph-color);
   transition: all 200ms ease-in-out;
 }
-.contact-link:hover {
+.btn-yellow:hover {
   box-shadow: var(--box-shadow);
   border: 3px solid var(--secondary-color);
   background-color: #e9ab00;
