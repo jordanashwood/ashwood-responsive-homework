@@ -78,6 +78,16 @@ p {
 .back-link:visited {
   color: #6860ab;
 }
+.card {
+  max-width: 400px;
+  min-width: 250px !important;
+  transition: all 200ms ease-in-out;
+  align-items: center;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: var(--box-shadow);
+}
 #contact {
   margin-top: 60px;
 }
@@ -143,4 +153,8 @@ p {
 }
 .project-image {
   width: 500px;
+}
+.primary-bg {
+  background-color: var(--primary-color);
+  padding: 20px;
 }
