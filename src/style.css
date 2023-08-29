@@ -5,12 +5,6 @@
   --paragraph-color: #333333;
   --box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
 }
-a {
-  text-decoration: none;
-}
-body {
-  margin-top: 100px;
-}
 a,
 h1,
 h2,
@@ -21,9 +15,9 @@ h3 {
 }
 h1 {
   font-weight: 200;
-  font-size: 80px;
-  line-height: 1.1;
-  color: var(--primary-color);
+  font-size: 80px !important;
+  line-height: 0.9 !important;
+  color: white;
 }
 h2 {
   font-weight: 600;
@@ -46,12 +40,17 @@ p {
   font-size: 14px;
 }
 .about-link {
-  border: 2px solid var(--secondary-color);
+  background-color: white;
+  border: 3px solid white;
+  color: var(--paragraph-color);
   transition: all 200ms ease-in-out;
-  color: var(--secondary-color);
 }
 .about-link:hover {
   box-shadow: var(--box-shadow);
+  border: 3px solid white;
+  background-color: #e7edf0;
+  text-decoration: none;
+  color: var(--paragraph-color);
   transform: scale(1.05);
 }
 .about-paragraphs {
@@ -86,13 +85,15 @@ p {
 .contact-link {
   background-color: var(--secondary-color);
   border: 3px solid var(--secondary-color);
-  color: white;
+  color: var(--paragraph-color);
   transition: all 200ms ease-in-out;
 }
 .contact-link:hover {
   box-shadow: var(--box-shadow);
   border: 3px solid var(--secondary-color);
   background-color: #e9ab00;
+  color: var(--paragraph-color);
+  text-decoration: none;
   transform: scale(1.05);
 }
 .email-link {
@@ -109,9 +110,15 @@ p {
 .email-link:visited {
   color: #6860ab;
 }
+.hero {
+  background-image: url(../img/hero-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
 .hero-btns {
   display: flex;
-  margin-top: 40px;
+  margin-top: 10px;
   justify-content: center;
 }
 .hero-btns a {
@@ -122,4 +129,7 @@ p {
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
+}
+.nav-logo {
+  width: 150px;
 }
