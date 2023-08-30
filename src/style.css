@@ -12,9 +12,12 @@ h3 {
   font-family: "Work Sans", sans-serif;
   margin: 0;
 }
+footer {
+  background-color: var(--tertiary-color);
+}
 h1 {
   font-weight: 200;
-  font-size: 80px !important;
+  font-size: 70px !important;
   line-height: 0.9 !important;
   color: var(--paragraph-color);
 }
@@ -52,17 +55,16 @@ p {
   color: var(--paragraph-color);
   transform: scale(1.05);
 }
-.about-paragraphs {
+.about-paragraph {
   display: flex;
-  margin: 20px 0;
+  margin: 0 auto;
+  max-width: 1000px;
+  justify-content: center;
 }
-.about-paragraphs p {
-  margin: 15px;
+.about-paragraph p {
   line-height: 1.45;
-  background-color: var(--tertiary-color);
   padding: 20px;
-  border-radius: 10px;
-  width: 380px;
+  display: flex;
 }
 .back-link {
   color: #a7a7a7;
@@ -147,6 +149,9 @@ p {
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
+}
+.navbar {
+  box-shadow: var(--box-shadow);
 }
 .nav-logo {
   width: 150px;
